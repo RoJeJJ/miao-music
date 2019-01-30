@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--用于特别需要强调和突出的文字、按钮和图标-->
+    <color name="primaryColor">#ce3d3a</color>
+    <!--用于重要及文字信息、内容标题信息-->
+    <color name="primaryTextColor">#333333</color>
+    <!--用于重要文字链接颜色-->
+    <color name="primaryLinkTextColor">#477aac</color>
+    
+    <!--一般-->
+    <color name="normalColor">#666666</color>
+    <color name="secondaryColor_1">#888888</color>
+    <color name="secondaryColor_2">#999999</color>
+    <color name="secondaryColor_3">#b2b2b2</color>
+    <color name="secondaryColor_4">#cccccc</color>
+
+    <color name="contentBackgroundColor">#f2f4f5</color>
+    <color name="secondaryBackgroundColor">#0D000000</color>
+    <color name="dividerColor">#19000000</color>
+</resources>
