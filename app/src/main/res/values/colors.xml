@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--波纹涟漪-->
+    <color name="colorControlHighlight">#1F000000</color>
+
     <!--用于特别需要强调和突出的文字、按钮和图标-->
     <color name="primaryColor">#ce3d3a</color>
     <!--用于重要及文字信息、内容标题信息-->
@@ -17,4 +20,5 @@
     <color name="contentBackgroundColor">#f2f4f5</color>
     <color name="secondaryBackgroundColor">#0D000000</color>
     <color name="dividerColor">#19000000</color>
+
 </resources>

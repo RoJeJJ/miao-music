@@ -4,4 +4,12 @@
         <attr name="insetForeground" format="color|reference"/>
         <attr name="consumeInsets" format="boolean"/>
     </declare-styleable>
+    <declare-styleable name="RoundImageView">
+        <attr name="radius" format="dimension|reference"/>
+        <attr name="type" format="enum">
+            <enum name="NONE" value="0"/>
+            <enum name="ROUND" value="1"/>
+            <enum name="CIRCLE" value="2"/>
+        </attr>
+    </declare-styleable>
 </resources>

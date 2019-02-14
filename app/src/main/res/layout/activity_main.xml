@@ -5,8 +5,7 @@
     android:id="@+id/mainDrawer"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity"
-    android:fitsSystemWindows="true">
+    tools:context=".activity.MainActivity">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
@@ -21,7 +20,29 @@
             android:theme="?attr/actionBarTheme"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingTop="@dimen/status_bar_size">
+            <android.support.design.widget.TabLayout
+                android:id="@+id/mainTab"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:tabUnboundedRipple="true"
+                app:tabIndicator="@null"
+                app:tabIndicatorHeight="0dp"
+                app:tabPaddingStart="-1dp"
+                app:tabPaddingEnd="-1dp"
+                app:tabGravity="center">
+            </android.support.design.widget.TabLayout>
+        </android.support.v7.widget.Toolbar>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/mainViewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        </android.support.v4.view.ViewPager>
 
     </android.support.constraint.ConstraintLayout>
     <com.roje.miao.music.view.CustomInsetsFrameLayout

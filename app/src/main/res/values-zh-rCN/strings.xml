@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="friends_title">朋友</string>
+    <string name="radio_title">电台</string>
+    <string name="recommend_title">推荐</string>
+</resources>
